@@ -22,6 +22,10 @@
 
       new bootstrap.Popover(document.getElementById('popoverButton'))
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/willowsystems/jSignature/master/libs/jSignature.min.js"></script>
+
+
 
 </head>
 
@@ -315,16 +319,16 @@
 
 
 
-<h4>
+<h5>
 <div class="row justify-content-end">
-    <div class="col-4">
+    <div class="col-6">
   
             <label class="form-check-label" for="s-address"> 본인은 상기 내용에 대하여 동의합니다.  </label>
               <input type="checkbox" class="form-check-input" id="s-address">
     
 </div>
 
-</h4>
+</h5>
 
 <br>
 <br>
@@ -386,16 +390,16 @@
 
 
 
-<h4>
+<h5>
 <div class="row justify-content-end">
-    <div class="col-4">
+    <div class="col-6">
   
             <label class="form-check-label" for="same-address"> 본인은 상기 내용에 대하여 동의합니다.  </label>
               <input type="checkbox" class="form-check-input" id="same-address">
     
 </div>
 
-</h4>
+</h5>
 
 <br>
 <br>
@@ -403,7 +407,8 @@
 
 
     
-<div class="row justify-content-end">
+  <div class="row justify-content-between">
+
 
   <div class="col-4">
                   <div class="form-floating mb-2">
@@ -415,9 +420,9 @@
                   </label>
 </div>
 </div>
-</div>
 
-<div class="row justify-content-end">
+
+
 
   <div class="col-4">
                   <div class="form-floating mb-2">
@@ -431,19 +436,44 @@
 </div>
 </div>
 
+<div class="row justify-content-end">
 
 
+ <div class="col-4">
+<!--
+<div id="signature"></div><br>
+-->
 
-<h4>동의자 성명</h4>
+<div id="signature" style="border:1px solid black;width:400px;height:160px;"></div>
+<img id="rendered" src="" style="display:none">
 
+</div>
+</div>
+<div class="row justify-content-end">
+ <div class="col-4">
+<button type="button" class="btn btn-primary" onclick="$('#signature').jSignature('clear')">Clear</button>
+
+</div>
 
 </div>
 
 
- 
-
-
-
 </body>
+
+
+
+
+<script>
+    $("#signature").jSignature({
+                    'decor-color': 'transparent',
+                    'color': '#000000',
+                    'width': '400',
+                    'height': '160',
+                    'lineWidth': 1,
+   });
+
+
+   
+</script>
 
 </html>
