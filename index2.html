@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>고객응대</title>	
+
+</head>
+
+
+
+
+
+<body>
+
+  <div class="container">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-sm  fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">breezm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">제작동의서</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">고객정보</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>      
+
+
+    
+
+      <h1> </h1>
+      <h3></h3>
+      <br>
+      <br>
+      <h4>
+
+
+<div class="row g-3">
+
+      <ul class="list-unstyled ps-0">
+
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          고객정보        </button>
+        <div class="collapse" id="account-collapse">
+        
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+            <li>
+              <div class="row">
+                <div class="col-sm-5">
+               <div class="form-floating mb-2">
+       
+          <input type="text" class="form-control" id="name" placeholder="이름">
+          <label for="name">이름</label>
+        
+              </div>  
+              </div>
+
+
+                 <div class="col-sm-5">
+                  <div class="form-floating mb-2">
+              
+              <input type="date" class="form-control" id="date" name="date" placeholder="생년월일
+              ">
+                  <label for="name">생년월일
+
+                  </label>
+       
+                </div>
+
+
+                </div>
+                
+  
+
+    <div class="col-sm-2">
+      <div class="input-group mb-2">
+         <select id="gender" class="form-select" aria-label="Default select example">
+            <option selected>성별</option>
+            <option value="M">남성</option>
+           <option value="F">여성</option>
+          </select>
+      </div>
+    </div>  
+    
+
+
+
+</div>
+
+     </li>
+
+
+
+
+
+            <li>
+ <div class="row">
+  <div class="col-sm-5">
+    
+      
+
+
+    <div class="form-floating mb-2">
+       <input type="text" class="form-control" id="tel" name="tel" placeholder="전화번호"> 
+        
+       
+         <label for="tel"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg></label> 
+        
+     </div>
+  </div>  
+  
+
+
+ 
+     <div class="col-sm-5">
+      <div class="form-floating mb-2">
+          
+          <input type="email" class="form-control" id="mail" name="mail" placeholder="E-Mail" value=" ">
+      
+          <label for="mail">E-Mail</label>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="col-sm-2">
+      <div class="input-group mb-2">
+    
+         <select id="agree" class="form-select" aria-label="Default select example">
+          <option selected>홍보수신 </option>
+
+            <option value="TRUE">동의</option>
+           <option value="FALSE">미동의</option>
+          </select>
+      </div>
+    </div>  
+
+
+
+
+
+            
+  
+ 
+</div>
+</li>
+           
+
+  <li>
+    
+     
+
+    <div class="row">
+
+        <div class="col-sm-12">
+        <div class="form-floating mb-2">
+          <input type="text" class="form-control" placeholder="주소" id="area" name="area" value=" ">
+           <label for="name">주소</label>
+
+
+        </div>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </li>
+
+
+
+
+
+
+
+
+          </ul>
+        </div>
+        
+      </li>
+</ul>
+
+
+
+
+
+
+ <ul class="list-unstyled ps-0">
+
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#order-collapse" aria-expanded="false">
+          예약정보       </button>
+        <div class="collapse" id="order-collapse">
+        
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+            <li>
+              <div class="row">
+
+           <div class="col-sm-4">
+     
+        
+        <input type="text" class="form-control" placeholder="예약채널" list="rese" id="reser" >
+          <datalist id="rese">
+          <option value="웹사이트">웹사이트</option>
+          <option value="매장전화">매장전화</option>
+          <option value="네이버예약">네이버예약</option>
+          <option value="채널톡(카톡)">채널톡(카톡)</option>
+           <option value="채널톡">채널톡</option>
+          <option value="직접방문">직접방문</option>
+          <option value="사무실전화">사무실전화</option>
+          <option value="매장 방문">매장 방문</option>
+          <option value="젠마 연락">젠마 연락</option>
+           <option value="윌 연락">윌 연락</option>
+           </datalist>
+
+      
+        </div>  
+
+
+     <div class="col-sm-4">
+       
+        <input type="text" class="form-control" placeholder="인지경로" list="wherea" id="where" >
+        <datalist id="wherea">
+         <option value="A)재방문">A)재방문</option>
+        <option value="B)온라인광고_페북/인스타">B)온라인광고_페북/인스타</option>
+        <option value="B)온라인광고_유튜브">B)온라인광고_유튜브</option>
+          <option value="B)온라인광고_웹사이트">B)온라인광고_웹사이트</option>
+        <option value="B)온라인후기_페북/인스타">B)온라인후기_페북/인스타</option>
+        <option value="B)온라인후기_블로그">B)온라인후기_블로그</option>
+        <option value="B)온라인후기_카페/커뮤니티">B)온라인후기_카페/커뮤니티</option>
+        <option value="B)온라인후기_웹사이트">B)온라인후기_웹사이트</option>
+        <option value="B)방송/기사">B)방송/기사</option>
+        <option value="C)소개(고객)">C)소개(고객)</option>
+        <option value="C)소개(임직원)">C)소개(임직원)</option>
+        <option value="D)협찬/증정">D)협찬/증정</option>
+        <option value="D)테스트">D)테스트</option>
+        <option value="D)협력/입주사">D)협력/입주사</option>
+        <option value="E)해당없음">E)해당없음</option>
+       </datalist>
+
+      
+        </div>
+
+
+
+
+
+
+
+           <div class="col-sm-2">
+       <div class="input-group mb-2">
+            <select id="pick" class="form-select" aria-label="Default select example">
+            
+               <option selected>픽업/배송</option>
+               <option value="픽업">픽업</option>
+                <option value="배송">배송</option>
+              </select>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+     </li>
+
+
+
+
+
+
+
+
+
+          </ul>
+        </div>
+        
+      </li>
+</ul>
+
+
+
+
+ <ul class="list-unstyled ps-0">
+
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#optic-collapse" aria-expanded="false">
+          안경정보       </button>
+        <div class="collapse" id="optic-collapse">
+        
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+            <li>
+              <div class="row">
+
+  <div class="col-sm-8">
+        <input class="form-control" placeholder="모델명" list="modellist"id="model" >
+            <datalist id="modellist">
+             <option value="Alex / Alex">Alex</option>
+                 <option value="Ada / 02 ADA">Ada</option>
+             <option value="Alan / 02 ALAN">Alan</option>
+               <option value="Atlas / SG Equator">Atlas / SG Equator</option>
+              <option value="Ash / SG Horizon">Ash / SG Horizon</option>
+            
+                <option value="Astro / Astro">Astro / Astro</option>
+            <option value="Astra / Astra">Astra / Astra</option>
+             <option value="Aster / Aster">Aster / Aster</option>
+
+
+             <option value="Brighton / 01 BOSTON B">Brighton / 01 BOSTON B</option>
+              <option value="Bryden / 01 BOSTON C">Bryden / 01 BOSTON C</option>
+             <option value="Brooklyn / 01 BOSTON R2">Brooklyn / 01 BOSTON R2</option>
+               <option value="Brooks / Brooks">Brooks</option>
+
+
+
+                  <option value="Capricorn / Capricorn">Capricorn</option>
+              <option value="Chris / Chris">Chris</option>
+               <option value="Collin / W Boston 01">Collin / W Boston 01</option>
+             <option value="Collins / W Boston 02">Collins / W Boston 02</option>
+             <option value="Charles / Charles">Charles</option>
+             <option value="Cameron / SG EXTRUDE">Cameron / SG EXTRUDE</option>
+
+
+           
+               <option value="Dallas / 01 WELLINGTON C">Dallas / 01 WELLINGTON C</option> 
+             <option value="Devon / 01 WELLINGTON N2">Devon / 01 WELLINGTON N2</option>
+             <option value="Darion / 01 WELLINGTON R2">Darion / 01 WELLINGTON R2</option>
+
+               <option value="Elise / Elise">Elise</option>
+
+                <option value="Gogh / Gogh">Gogh</option>
+
+                <option value="Haley / TH round 02">Haley / TH round 02</option>
+             <option value="Hayden / TH W round 02">Hayden / TH W round 02</option>
+
+              <option value="Huh A / 00 HUH A">Huh A</option> 
+             <option value="Huh B / 00 HUH B">Huh B</option> 
+               <option value="Hunter / 00 InFocusR">Hunter</option>
+
+
+                <option value="Jules / Jules">Jules</option> 
+             <option value="Justin / TH boston 01">Justin / TH boston 01</option>
+             <option value="Justice / TH W boston 01">Justice / TH W boston 01</option>
+             <option value="Jay / TH boston 02">Jay / TH boston 02</option>
+            <option value="Jayden / TH W boston 02">Jayden / TH W boston 02</option>
+
+              <option value="Kay / 02 KAY">KAY</option> 
+                <option value="Kendall / CHAMFER">Kendall / CHAMFER</option>
+             <option value="Keros / KEROS">KEROS</option>
+             <option value="Kos / KOS">KOS</option>
+             <option value="Katy / OFFSET">Katy / OFFSET</option>
+
+             <option value="Leco / LE CO">Leco</option>
+            
+            <option value="Leon / Leon">Leon</option>
+
+                    <option value="Max / Max">Max</option>
+                <option value="Marion / W Square 01">Marion / W Square 01</option>
+             <option value="Mogan / W Wellington 01">Mogan / W Wellington 01</option>
+
+               <option value="Oliva / OLIVA">OLIVA</option>
+             <option value="Parker / 00 InFocusS">Parker</option>
+            <option value="Paris / Paris">Paris</option>
+             <option value="Phoenix / Phoenix">Phoenix</option>
+             <option value="Phoebe / SG PLEATS">Phoebe / SG PLEATS</option>
+            
+              <option value="River / 01 ROUND C2">River / 01 ROUND C2</option>
+             <option value="Raye / 01 ROUND N2">Raye / 01 ROUND N2</option>
+              <option value="Robin / 01 ROUND R">Robin / 01 ROUND R</option>
+              <option value="Roca / ROCA">ROCA</option>
+             <option value="Sutton / 01 SQUARE B">Sutton / 01 SQUARE B</option>
+              <option value="Stanley / 01 SQUARE N2">Stanley / 01 SQUARE N2</option>
+             <option value="Sol / 01 SQUARE R">Sol / 01 SQUARE R</option>
+            
+            
+             
+              <option value="Theo / W Round 01">Theo / W Round 01</option>
+             <option value="Theodore / W Round 02">Theodore / W Round 02</option>
+             
+             
+            
+             <option value="Von / 02 VON">VON</option>
+           
+         
+             
+           
+            
+             
+                          
+
+                         
+             <option value="Wren / T Boston 01">Wren / T Boston 01</option>
+             <option value="Will / T Round 01">Will / T Round 01</option>
+             <option value="Willow / T Square 01">Willow / T Square 01</option>
+       
+              
+             
+
+
+        </datalist>
+        </div>
+     
+
+
+
+
+
+
+      
+
+    <div class="col col-sm-2">
+      <div class="input-group mb-2">
+          <select id="size" class="form-select" aria-label="Default select example">
+        
+          
+               <option selected>사이즈</option>
+           <option value="1_XXXS">1</option>
+          <option value="2_XXS">2</option>
+          <option value="3_XS">3</option>
+          <option value="4_S">4</option>
+          <option value="5_M">5</option>
+          <option value="6_L">6</option>
+           <option value="7_XL">7</option>
+          <option value="8_XXL">8</option>
+          <option value="9_XXXL">9</option>
+          <option value="10_XXXXL">10</option>
+           <option value="11_XXXXXL">11</option>
+          <option value="12_XXXXXXL">12</option>
+          <option value="Free">Free</option>
+       
+
+          </select>
+      </div>
+    </div>  
+
+ 
+    <div class="col col-sm-2">
+      <div class="input-group mb-2">
+          <select id="nose" class="form-select" aria-label="Default select example">
+      
+          <option selected>코패드 </option>
+              <option value="원형">원형</option>
+              <option value="사각">사각</option>
+              <option value="구름A">구름A</option>
+               <option value="구름C">구름C</option>
+              <option value="나비">나비</option>
+              <option value="타원">타원</option>
+              <option value="물방울">물방울</option>
+
+              </select>
+
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+     </li>
+
+
+
+
+
+
+
+
+<li>
+  
+
+  
+
+
+      <div class="row">
+
+     <div class="col-sm-3">
+    <input class="form-control" placeholder="컬러" list="colorlist"id="moco" >
+          
+
+                <datalist id="colorlist">
+
+             <option value="BROWN LEATHER">Brown</option>
+             <option value="BLACK">BLACK</option>
+             
+             <option value="DEEP FOREST">DEEP FOREST</option>
+              <option value="ESPRESSO">ESPRESSO</option>
+              <option value="GRAY CITY">GRAY CITY</option>
+            <option value="HUH GREEN">HUH GREEN</option>
+             <option value="NAVY">NAVY</option>
+             <option value="MOCHA">MOCHA</option>
+            <option value="RUBY RED">RUBY RED</option>
+             <option value="RED BEAN">RED BEAN</option>
+             <option value="ROYAL BLUE">ROYAL BLUE</option>
+            
+             <option value="T GUNMETAL">T GUNMETAL</option>
+                <option value="T SILVER">T SILVER</option>
+             <option value="PINK(Astra)">PINK(Astra)</option>
+             <option value="SKY BLUE(Astra)">SKY BLUE(Astra)</option>
+             <option value="YELLOW(Astra)">YELLOW(Astra)</option>
+                 <option value="VIOLET(Astro)">VIOLET(Astro)</option>
+             <option value="GREEN(Astro)">GREEN(Astro)</option>
+
+
+              </datalist>
+
+    
+    </div>
+
+
+
+
+     <div class="col-sm-3">
+        <input class="form-control" placeholder="템플" list="templelist"id="temple" >
+      
+      
+         <datalist id="templelist">
+                <option value="TITAN_SILVER">TITAN_SILVER</option>
+                 <option value="TITAN_GOLD">TITAN_GOLD</option>
+                <option value="ULTEM_BLACK">ULTEM_BLACK</option>
+                 <option value="ULTEM_SILVER">ULTEM_SILVER</option>
+                   <option value="3DP_TEMPLES">3DP_TEMPLES</option>
+                   <option value="wire_gun metal">wire_gun metal</option>
+                 <option value="wire_pale olive">wire_pale olive</option>
+                <option value="wire_rose gold">wire_rose gold</option> 
+                 <option value="T GUNMETAL">T GUNMETAL</option>
+                <option value="T SILVER">T SILVER</option>
+               <option value="TIP&TITAN_SILVER">TIP&TITAN_SILVER</option>
+                <option value="TIP&TITAN_GOLD">TIP&TITAN_GOLD</option>
+              </datalist>
+      
+     
+     </div>  
+
+
+
+
+
+
+  
+    <div class="col-sm-3">
+ 
+        <input class="form-control" placeholder="팁" list="tiplist"id="tip" >
+              <datalist id="tiplist">
+           <option value="없음">없음</option>
+          <option value="CLEAR">CLEAR</option>
+            <option value="BLACK">BLACK</option>
+          <option value="GRAY">GRAY</option>
+          <option value="DEEP GREEN">DEEP GREEN</option>
+          <option value="BLUE">BLUE</option>
+          <option value="BROWN">BROWN</option>
+
+    
+    </div>  
+    
+
+
+     <div class="col-sm-3">
+   
+           <input class="form-control" placeholder="파츠" list="partlist"id="part" >
+                    <datalist id="partlist">
+             <option value="없음">없음</option>
+             <option value="GRAY CITY">GRAY CITY</option>
+             <option value="BROWN LEATHER">BROWN LEATHER</option>
+               <option value="NAVY">NAVY</option>
+              <option value="DEEP FOREST">DEEP FOREST</option> 
+             <option value="BLACK">BLACK</option>
+            <option value="RUBY RED">RUBY RED</option>
+             <option value="RED BEAN">RED BEAN</option>
+             <option value="MOCHA">MOCHA</option>
+              <option value="ESPRESSO">ESPRESSO</option>
+             <option value="ROYAL BLUE">ROYAL BLUE</option>
+             <option value="HUH GREEN">HUH GREEN</option>
+             <option value="YELLOW">YELLOW</option>
+                 <option value="ORANGE">ORANGE</option>
+             
+               </datalist>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</li>
+<li><h1></h1></li>
+
+
+<li>
+
+
+    
+
+
+      <div class="col-sm-12">
+          <div class="form-floating mb-4">
+           <input type="text" class="form-control" placeholder="비고" id="note" name="note" value=" ">
+           <label for="name">비고</label>
+         
+      
+          </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+</li>
+
+
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+
+
+
+
+
+
+ <ul class="list-unstyled ps-0">
+
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#pay-collapse" aria-expanded="false">
+          결제정보       </button>
+        <div class="collapse" id="pay-collapse">
+        
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+            <li>
+
+
+    <div class="row">
+
+  <div class="col-sm-3">
+     
+        
+        <input type="text" class="form-control" placeholder="거래구분" list="exoglist" id="exog" >
+          <datalist id="exoglist">
+          <option value="일반-카드">일반-카드</option>
+          <option value="일반-현금">일반-현금</option>
+          <option value="미결">미결</option>
+          <option value="식권대장(강남N타워)">식권대장(강남N타워)</option>
+          <option value="할인(시착)">할인(시착)</option>
+           <option value="할인(10%)-카드">할인(10%)-카드</option>
+          <option value="할인(10%)-현금">할인(10%)-현금</option>
+          <option value="할인(30%)-카드">할인(30%)-카드</option>
+          <option value="할인(30%)-현금">할인(30%)-현금</option>
+          <option value="임직원(시착)">임직원(시착)</option>
+           
+           </datalist>
+
+      
+        </div>  
+
+
+     <div class="col-sm-3">
+       
+        <input type="text" class="form-control" placeholder="결제방법" list="exoilist" id="exoi" >
+        <datalist id="exoilist">
+         <option value="BC카드">BC카드</option>
+        <option value="KB카드">KB카드</option>
+        <option value="하나외환카드">하나외환카드</option>
+          <option value="현대카드">현대카드</option>
+        <option value="삼성카드">삼성카드</option>
+        <option value="신한카드">신한카드</option>
+        <option value="우리카드">우리카드</option>
+        <option value="롯데카드">롯데카드</option>
+        <option value="NH카드">NH카드</option>
+        <option value="씨티카드">씨티카드</option>
+        <option value="KDB산업">KDB산업</option>
+        <option value="현금_현금영수증X">현금_현금영수증X</option>
+        <option value="현금_현금영수증O">현금_현금영수증O</option>
+        <option value="계좌이체">계좌이체</option>
+        <option value="제로페이">제로페이</option>
+        <option value="유안타">유안타</option>
+        <option value="할인(시착)">할인(시착)</option>
+        <option value="식권대장(강남N타워)">식권대장(강남N타워)</option>
+        <option value="새마을">새마을</option>
+        <option value="차이카드">차이카드</option>
+        <option value="해외카드">해외카드</option>
+        <option value="자진발급">자진발급</option>
+        <option value="카카오뱅크">카카오뱅크</option>
+        <option value="카카오페이">카카오페이</option>
+        <option value="성남사랑상품권">성남사랑상품권</option>
+
+
+
+
+       </datalist>
+
+      
+        </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="col-sm-3">
+               <div class="form-floating mb-2">
+       
+          <input type="text" class="form-control" id="exoj" placeholder="가격">
+          <label for="exoj">가격</label>
+        
+              </div>  
+              </div>
+
+
+                 <div class="col-sm-3">
+               <div class="form-floating mb-2">
+       
+          <input type="text" class="form-control" id="exok" placeholder="승인번호">
+          <label for="exok">승인번호</label>
+        
+              </div>  
+              </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+<li>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</li>
+
+
+
+
+          </ul>
+        </div>
+        
+      </li>
+</ul>
+
+
+
+
+
+
+
+ <ul class="list-unstyled ps-0">
+
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#set-collapse" aria-expanded="false">
+          안경셋팅      </button>
+        <div class="collapse" id="set-collapse">
+        
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+            <li>
+              <div class="row">
+
+
+
+    <div class="col-sm-3">
+               <div class="form-floating mb-2">
+       
+          <input type="text" class="form-control" id="exoc" placeholder="경사각" value=" ">
+          <label for="name">경사각</label>
+        
+        </div>  
+   </div>  
+
+
+
+
+   <div class="col-sm-3">
+      <div class="form-floating mb-2">
+           <input type="text" class="form-control" id="exoa" placeholder="VD" value=" ">
+          <label for="name">VD</label>
+        
+      </div>
+   </div>  
+   
+     <div class="col-sm-3">
+      <div class="form-floating mb-2">
+          <input type="text" class="form-control" id="exob" placeholder="브릿지폭" value=" ">
+          <label for="name">브릿지폭</label>
+
+      </div>
+   </div>   
+
+
+
+
+
+
+
+
+              </div>
+            </li>
+
+
+<br>
+
+<li>
+              <div class="row">
+
+
+<div class="col-sm-3">
+      <div class="form-floating mb-2">
+
+          <input type="text" class="form-control" id="exod" placeholder="코패드 상하위치" value=" ">
+          <label for="name">코패드 상하 위치</label>
+
+      </div>
+   </div>   
+
+
+   <div class="col-sm-3">
+      <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="exoh" placeholder="엔드피스 좌우길이" value=" ">
+          <label for="name">엔드피스 좌우 길이</label>
+         
+
+      </div>
+   </div>  
+   
+  
+
+
+
+</div>
+</li>
+
+
+
+
+</ul>
+</div>
+</li>
+</ul>
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+
+
+
+
+     
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+   <div class="col-sm-2">
+        <input class="form-control" placeholder="담당자" list="mantoman" id="con" >
+          <datalist id="mantoman">
+              <option value="Nick">Nick</option>
+             <option value="Alpha">Alpha</option>
+             <option value="Mason">Mason</option>
+             <option value="Evan">Evan</option>
+             <option value="Rosy">Rosy</option>
+             <option value="Luke">Luke</option>
+             <option value="Charlotte">Charlotte</option>
+        </datalist>
+
+    </div>
+
+    <div></div>
+
+   <div class="col-sm-2">
+     <input class="form-control" placeholder="렌즈" list="lenslist" id="lens" >
+              <datalist id="lenslist">
+               <option value="E3">E3</option>
+               <option value="DEMO">DEMO</option>
+
+                <option value="Tinted_2C_그린">그린</option>
+               <option value="Tinted_2C_그린틴트">그린틴트</option>
+              <option value="Tinted_2C_네이비틴트">네이비틴트</option>
+               <option value="Tinted_2C_브라운">브라운</option>
+              <option value="Tinted_2C_블루미러">블루미러</option>
+               <option value="Tinted_2C_스모그">스모그</option>
+               <option value="Tinted_2C_실버미러">실버미러</option>
+               <option value="Tinted_2C_연레드미러">연레드미러</option>
+            <option value="Tinted_2C_퍼플틴트">퍼플틴트</option>
+               <option value="Tinted_2C_스모그틴트">스모그틴트</option>
+
+              </datalist>
+
+
+
+
+           
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div>
+  <button type="button" class="btn btn-primary" id="google-submit">입력</button>
+</div>
+
+<div id="snackbar"></div>
+
+</div>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+
+
+
+
+var inputs = $('input[type="text"]');
+
+var googleSubmitBtn = $('#google-submit');
+var snackbar = $('#snackbar');
+
+var inputNose = $('#nose');
+var inputName = $('#name');
+var inputDate = $('#date');
+var inputArea = $('#area');
+var inputTel = $('#tel');
+var inputModel = $('#model');
+var inputWhere = $('#where');
+var inputGender = $('#gender')
+var inputReser = $('#reser')
+var inputNote = $('#note')
+var inputSize = $('#size')
+var inputAgree = $('#agree')
+var inputPick = $('#pick')
+var inputCon = $('#con')
+var inputLens = $('#lens')
+var inputTemple = $('#temple')
+var inputTip = $('#tip')
+var inputMail = $('#mail')
+var inputMoco = $('#moco')
+var inputPart = $('#part')
+var inputExoa = $('#exoa')
+var inputExob = $('#exob')
+var inputExoc = $('#exoc')
+var inputExod = $('#exod')
+var inputExoe = $('#exoe')
+var inputExof = $('#exof')
+var inputExog = $('#exog')
+var inputExoh = $('#exoh')
+var inputExoi = $('#exoi')
+var inputExoj = $('#exoj')
+var inputExok = $('#exok')
+
+
+
+
+function isLoading(status){
+  if(status){
+    $('html, body').addClass('wait');
+    googleSubmitBtn.attr('disabled', true).html('입력중...');
+  } else {
+    $('html, body').removeClass('wait');
+    googleSubmitBtn.attr('disabled', false).html('입력');
+  }
+}
+
+function checkInput(){
+  var isEmpty = false;
+  $.each(inputs, function (index, element) {
+    if (element.value === '') {
+      alert('빈 칸이 있어요.');
+      isEmpty = true;
+      return false;
+    }
+  });
+  return isEmpty;
+}
+
+$('#google-submit').click(function () {
+
+  //빈값 체크
+  if (checkInput()) { return; }
+
+  // 입력중..
+  isLoading(true);
+
+  $.ajax({
+    type: "GET",
+    url: "https://script.google.com/macros/s/AKfycbztt5hJANXr5QV3QkzJNNx1IE3S69ijHJqQ9seVK0g9nNJX4e7xEB41f6v-Cnf7T7LVSQ/exec",
+    data: {
+      "코패드": inputNose.val(),
+      "이름": inputName.val(),
+      "주문일": inputDate.val(),
+      "사는곳": inputArea.val(),
+      "전화번호": inputTel.val(),
+      "모델명": inputModel.val(),
+      "인지경로": inputWhere.val(),
+      "성별": inputGender.val(),
+      "예약채널": inputReser.val(),
+      "비고": inputNote.val(),
+      "사이즈": inputSize.val(),
+      "홍보수신동의": inputAgree.val(),
+      "픽업/배송": inputPick.val(),
+      "담당자": inputCon.val(),
+      "렌즈":  inputLens.val(),
+      "템플":  inputTemple.val(),
+      "템플팁":  inputTip.val(),
+      "이메일":  inputMail.val(),
+      "모델컬러":  inputMoco.val(),
+      "파츠컬러":  inputPart.val(),
+      "VD":  inputExoa.val(),
+      "브릿지폭":  inputExob.val(),
+      "경사각":  inputExoc.val(),
+      "코패드상하":  inputExod.val(),
+      "코패드좌우":  inputExoe.val(),
+      "코패드전후":  inputExof.val(),
+        "거래구분":  inputExog.val(),
+      "엔드좌우길이":  inputExoh.val(),
+      "결제방법":  inputExoi.val(),
+      "가격":  inputExoj.val(),
+      "승인번호":  inputExok.val(),
+
+
+
+    },
+    success: function (response) {
+      isLoading(false);
+
+      snackbar.html('입력이 완료됐습니다.').addClass('show');
+      setTimeout(function () {
+        snackbar.removeClass('show');
+      }, 3000);
+
+      //값 비워주기
+      inputNose.val('');
+      inputName.val('');
+      inputDate.val('');
+      inputArea.val('');
+      inputTel.val('');
+      inputModel.val('');
+      inputWhere.val('');
+      inputGender.val('');
+      inputReser.val();
+      inputNote.val();
+      inputSize.val();
+      inputAgree.val();
+      inputPick.val();
+      inputCon.val();
+      inputLens.val();
+      inputTemple.val();
+      inputTip.val();
+      inputMail.val();
+      inputMoco.val();
+      inputPart.val();
+      inputExoa.val();
+      inputExob.val();
+      inputExoc.val();
+      inputExod.val();
+      inputExoe.val();
+      inputExof.val();
+      inputExog.val();
+      inputExoh.val();
+      inputExoi.val();  
+      inputExoj.val();
+      inputExok.val();  
+
+
+    },
+    error: function (request, status, error) {
+      isLoading(false);
+      console.log("code:" + request.status + "\n" + "error:" + error);
+      console.log(request.responseText);
+    }
+  });
+
+});
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
+
+<script>
+  
+ var select_box_element = document.querySelector('#select_box');
+
+ dselect(select_box_element, {
+    search : true
+ });
+
+</script>
